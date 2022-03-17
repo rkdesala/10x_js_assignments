@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+body {
+  background-color: rgb(181, 231, 181);
+  height: 100%;
+
+  font-family: sans-serif;
+}
+.task-buttons {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  height: 25vh;
+  background: red;
+  position: relative;
+  font-size: xx-large;
+}
+#button-completed {
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+#button-pending {
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 100%;
+  margin-left: 50%;
+}
+.search_button {
+  display: none;
+}
+.display_tasks {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  background: linear-gradient(to bottom right, rgb(7, 228, 62), yellow);
+}
+.display_tasks p {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  margin-top: 2px;
+  background: linear-gradient(to bottom right, rgb(7, 228, 62), yellow);
+}

@@ -9,7 +9,7 @@ Instructions
 
 ```bash
 Example:
-Input - ["firstName", "Yash", "lastName": "Goyal"]
+Input - ["firstName", "Yash", "lastName", "Goyal"]
 Output - { firstName: "Yash", lastName: "Goyal" }
 ```
 

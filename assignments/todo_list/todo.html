@@ -1,13 +1,19 @@
 <html>
   <head>
     <title>Todo List</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div>
+    <div class="search_button">
       <input id="input" type="text" name="todo_input" />
       <button id="button" type="submit">Add Todo</button>
       <div id="todos"></div>
     </div>
+    <div class="task-buttons">
+      <button id="button-completed" type="submit">Completed tasks</button>
+      <button id="button-pending" type="submit">Pending tasks</button>
+    </div>
+    <div class="display_tasks"></div>
   </body>
   <script src="./script.js"></script>
 </html>
